@@ -1,0 +1,102 @@
+body{
+    padding: 20px;
+    background-color: gray;
+}
+
+
+
+
+
+.principal-container{
+    margin: auto;
+    width: 600px;
+    background-color: white;
+    border: solid black 3px;
+}
+.header-post{
+    display: flex
+    ;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid black 3px;
+
+}
+.header-post h1{
+    font-size: 14px;
+}
+.header-post p {
+    font-size: 10px;
+    padding-top: 0;
+    margin-top: 0;
+
+}
+.header-left{
+display: flex;
+padding: 4px;
+margin-left: 8px;
+width: 15%;
+
+}
+.username{
+    order: 1;
+    padding-left: 5px;
+}
+.icono{
+    order: 0;
+    align-items: center;
+    padding-top: 4px;
+}
+
+.header-right{
+display: flex;
+padding-right: 6px;
+}
+
+.photo-instagram{
+    width: auto;
+
+}
+
+.footer-post{
+
+display: flex;
+flex-direction: column;
+border-top: solid black 3px;
+}
+
+.interactions-post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.icons-left{
+    margin-left: 8px;
+    margin-top: 2px;
+}
+.icons-right{
+    margin-right: 6px;
+    margin-top: 2px;
+
+}
+
+.likes{
+
+}
+
+.comments{
+    margin-top: 8px;
+}
+.description p {
+    margin-top: 0;
+    margin-top: 4px;
+    
+}
+
+.img{
+    width: 100%;
+    display: block;
+    
+}
+
+
